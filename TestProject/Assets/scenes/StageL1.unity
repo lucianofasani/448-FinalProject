@@ -1636,6 +1636,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4000013512496792, guid: b184d10e796bd474396bd897917b9b3f,
     type: 2}
   m_PrefabInternal: {fileID: 1959934775}
+--- !u!1 &635546416 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013374166432, guid: 76823011ff92ba94c985d59837b2ec40,
+    type: 2}
+  m_PrefabInternal: {fileID: 1420936734}
 --- !u!4 &643449027 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000013512496792, guid: b184d10e796bd474396bd897917b9b3f,
@@ -4225,7 +4230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smoothTimeX: 0.025
   smoothTimeY: 0
-  player: {fileID: 0}
+  focus: {fileID: 635546416}
   bounds: 1
   minCameraPos: {x: -5000, y: -5000, z: -11}
   maxCameraPos: {x: 5000, y: 5000, z: -9}
