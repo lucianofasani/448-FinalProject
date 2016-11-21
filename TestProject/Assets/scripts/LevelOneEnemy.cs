@@ -4,7 +4,7 @@ using System.Collections;
 public class LevelOneEnemy : MonoBehaviour {
 
 	public float speed;
-	public int direction = 1;
+	public int direction = -1;
 	// Use this for initialization
 	void Start () {
 
@@ -17,13 +17,10 @@ public class LevelOneEnemy : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col)
 	{
-		if (col.gameObject.name == "RightWall") {
-			direction = -1;
-		} else if (col.gameObject.name == "LeftWall") {
-			direction = 1;
-		} else if (col.gameObject.name == "KillWall") {
+		if (col.gameObject.name == "KillWall") {
 			Destroy (gameObject);
 		}
+		direction = direction * -1;
 	}
 }
 

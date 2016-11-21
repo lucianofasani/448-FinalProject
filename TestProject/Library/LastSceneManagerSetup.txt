@@ -1,7 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/First Stage.unity
+- path: Assets/scenes/Testing.unity
   isLoaded: 1
   isActive: 1
-- path: Assets/scenes/SceneDenae.unity
-  isLoaded: 0
-  isActive: 0
