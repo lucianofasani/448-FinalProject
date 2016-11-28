@@ -20,7 +20,7 @@ public class DestroyFloor5 : MonoBehaviour {
             GameObject.Find("BlockyBoss_0").GetComponent<BlockyBoss>().speed = 0;
             Destroy(GameObject.Find("floor4"));
             Destroy(gameObject);
-
+            Destroy(GameObject.Find("brick (4)"));
         }
     }
 }

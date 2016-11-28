@@ -21,5 +21,9 @@ public class EnemyScript : MonoBehaviour {
         {
             Destroy(gameObject);
         }
+        /*if (col.gameObject.tag == "enemy")
+        {
+            Physics2D.IgnoreCollision(col.collider, gameObject.GetComponent<Collider2D>());
+        }*/
     }
 }
