@@ -17,10 +17,17 @@ public class EnemyScript : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D col)
     {
+
 		if (col.gameObject.name == "BackWall" || col.gameObject.name == "KillWall") {
 			Destroy (gameObject);
 		} else if (col.gameObject.tag == "wall") {
 			direction = direction * -1;
 		}
+			
+        /*if (col.gameObject.tag == "enemy")
+        {
+            Physics2D.IgnoreCollision(col.collider, gameObject.GetComponent<Collider2D>());
+        }*/
+
     }
 }
