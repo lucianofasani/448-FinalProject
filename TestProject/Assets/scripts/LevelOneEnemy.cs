@@ -19,8 +19,9 @@ public class LevelOneEnemy : MonoBehaviour {
 	{
 		if (col.gameObject.name == "KillWall") {
 			Destroy (gameObject);
+		} else if (col.gameObject.tag == "wall") {
+			direction = direction * -1;
 		}
-		direction = direction * -1;
 	}
 }
 
