@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyScript : MonoBehaviour {
 
     public float speed;
-	public int direction = -1;
+	public int direction;
     // Use this for initialization
     void Start () {
 	

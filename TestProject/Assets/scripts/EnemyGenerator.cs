@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyGenerator : MonoBehaviour {
 
 	public GameObject enemy;
+	public int startDirection;
 	public Vector3 position;
 	public Quaternion rotation;
 	void Start () {
@@ -17,6 +18,7 @@ public class EnemyGenerator : MonoBehaviour {
 
 	void Spawn()
 	{
+		enemy.GetComponent<EnemyScript> ().direction = startDirection;
 		Instantiate (enemy, position, rotation);
 	}
 }

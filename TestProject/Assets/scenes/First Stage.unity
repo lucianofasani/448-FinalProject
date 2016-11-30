@@ -1864,6 +1864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1000011196971482, guid: 5903d31977a975c44b1d19b5ef55b74e, type: 2}
+  startDirection: -1
   position: {x: -5, y: 20, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!212 &1998660134

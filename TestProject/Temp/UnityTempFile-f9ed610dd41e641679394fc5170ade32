@@ -99,6 +99,7 @@
 'Assets/scripts/MegaJumpPowUp.cs'
 'Assets/scripts/OnFloor5.cs'
 'Assets/scripts/Powerups.cs'
+'Assets/scripts/RepeatSprite.cs'
 'Assets/scripts/RepeatSpriteBoundary.cs'
 'Assets/scripts/RestartGame.cs'
 'Assets/scripts/SceneSwitch.cs'

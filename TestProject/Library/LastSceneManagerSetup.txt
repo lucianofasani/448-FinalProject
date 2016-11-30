@@ -1,13 +1,1 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/scenes/First Stage.unity
-||||||| merged common ancestors
-- path: Assets/scenes/Testing.unity
-=======
-- path: Assets/scenes/SceneDenae.unity
->>>>>>> 1a5f2a51fcbb8a3e24b87ad0aacb66c0dba99f0a
-  isLoaded: 1
-  isActive: 1
-- path: Assets/scenes/SceneDenae.unity
-  isLoaded: 0
-  isActive: 0
+sceneSetups: []
