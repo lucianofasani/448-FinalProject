@@ -232,7 +232,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: EVO HOP ( working title )
+  m_Text: Pinkerton ( working title )
 --- !u!222 &1383270322
 CanvasRenderer:
   m_ObjectHideFlags: 0
