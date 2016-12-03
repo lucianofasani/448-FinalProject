@@ -115,14 +115,14 @@ RectTransform:
   m_GameObject: {fileID: 2711905}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalScale: {x: 2.51, y: 2.08, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1694643920}
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35.04, y: -5.5}
+  m_AnchoredPosition: {x: -12.99, y: -24.32}
   m_SizeDelta: {x: 0.64, y: 0.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &2711907
@@ -136,9 +136,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -15.7, y: 0}
   serializedVersion: 2
-  m_Size: {x: 51.7, y: 18.25}
+  m_Size: {x: 51.94, y: 20.5}
 --- !u!212 &2711908
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -168,7 +168,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1742770303
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0b663d58ca06b4d9eba9bc2d6312b98f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ef7fbf8939b44cee969548afa7ed7a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -410,6 +410,7 @@ MonoBehaviour:
   message: 'Power Up: Jumping acquired.'
   displayTime: 0
   displayMessage: 0
+  jumpSound: {fileID: 0}
 --- !u!50 &383295591
 Rigidbody2D:
   serializedVersion: 2
@@ -1233,7 +1234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smoothTimeX: 0.05
   smoothTimeY: 0.05
-  player: {fileID: 0}
+  focus: {fileID: 0}
   bounds: 1
   minCameraPos: {x: -10, y: 0, z: -10}
   maxCameraPos: {x: 1000, y: 1000, z: -10}
