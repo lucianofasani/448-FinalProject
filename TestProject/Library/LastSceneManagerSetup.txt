@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/scenes/StageL1.unity
-=======
-- path: Assets/scenes/SceneDenae.unity
->>>>>>> master
   isLoaded: 1
   isActive: 1

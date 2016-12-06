@@ -4,7 +4,6 @@ using System.Collections;
 public class OnFloor5 : MonoBehaviour {
 
     public float displayTime;
-    public float cameraSwitch;
     public bool displayMessage = false;
     // Use this for initialization
     void Start () {
@@ -15,14 +14,9 @@ public class OnFloor5 : MonoBehaviour {
 	void Update () {
         //decrement the time the message stays on the screen
         displayTime -= Time.deltaTime;
-        cameraSwitch -= Time.deltaTime;
         if (displayTime <= 0.0)
         {
             displayMessage = false;
-        }
-        if(cameraSwitch <= 0.0)
-        {
-            GameObject.Find("Main Camera").GetComponent<CameraControl>().target = GameObject.Find("Player").transform;//transfer camera back to player after blocky dies
         }
     }
 
@@ -32,8 +26,6 @@ public class OnFloor5 : MonoBehaviour {
         {
             displayMessage = true;
             displayTime = 3;
-            cameraSwitch = 5;
-
         }
     }
 

@@ -15,7 +15,6 @@ public class CharacterControllerScript : MonoBehaviour {
     public string message = "Power Up: Jumping acquired. Physics!";
     public float displayTime;
     public bool displayMessage = false;
-	public JumpSound jumpSound;
 
     // Use this for initialization
     void Start()
@@ -49,7 +48,6 @@ public class CharacterControllerScript : MonoBehaviour {
         if (jump && grounded && Input.GetKeyDown(KeyCode.Space))
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
-			jumpSound.Jump ();
         }
 
         //decrement the time the message stays on the screen
