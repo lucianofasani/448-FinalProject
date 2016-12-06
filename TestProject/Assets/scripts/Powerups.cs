@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Powerups : MonoBehaviour {
 
     private CharacterControllerScript theController;
@@ -19,8 +20,8 @@ public class Powerups : MonoBehaviour {
     {
         if(other.name == "Player")
         {
-            theController.jump = true;
-            Destroy(gameObject);
+				theController.jump = true;
+				Destroy (gameObject);
         }
 
     }

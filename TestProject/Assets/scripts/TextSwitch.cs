@@ -8,7 +8,7 @@ public class TextSwitch : MonoBehaviour {
 	public string message;
 	// Use this for initialization
 	IEnumerator Start () {
-		yield return new WaitForSeconds (5);
+		yield return new WaitForSeconds (15);
 		text = GetComponent<Text> ();
 		text.text = message;
 	}
@@ -17,6 +17,5 @@ public class TextSwitch : MonoBehaviour {
 	void Update () {
 		
 	}
-
 
 }

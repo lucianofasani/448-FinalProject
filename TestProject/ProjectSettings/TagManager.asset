@@ -6,6 +6,8 @@ TagManager:
   tags:
   - enemy
   - wall
+  - PhysicsUpgrade
+  - JumpUpgrade
   layers:
   - Default
   - TransparentFX
