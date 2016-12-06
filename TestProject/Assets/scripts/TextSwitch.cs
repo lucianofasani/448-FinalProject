@@ -5,17 +5,17 @@ using UnityEngine.UI;
 public class TextSwitch : MonoBehaviour {
 
 	Text text;
+	public string message;
 	// Use this for initialization
 	IEnumerator Start () {
-		yield return new WaitForSeconds (5);
+		yield return new WaitForSeconds (15);
 		text = GetComponent<Text> ();
-		text.text = "...oh, are you stuck? Try using your arrow keys.";
+		text.text = message;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-
 
 }
