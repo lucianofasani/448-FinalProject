@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/scenes/Stage1.unity
   - enabled: 1
     path: Assets/scenes/SceneDenae.unity
+  - enabled: 1
+    path: Assets/scenes/DenaeScene2.unity
